@@ -1,0 +1,26 @@
+{
+  "name": "instanews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesdelange/instanews.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesdelange/instanews/issues"
+  },
+  "homepage": "https://github.com/wesdelange/instanews#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.7",
+    "eslint": "^4.19.1",
+    "gulp": "^4.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0"
+  }
+}

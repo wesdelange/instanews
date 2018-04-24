@@ -10,7 +10,6 @@ $(function (){
             method: 'GET',
         }).done(function(data){
             $.each(data, function(key, value){
-                console.log(data);
                 ('.news').append('<p>' + data.results[0].abstract + '</p>')
             });
             $.fail(function(err) {
