@@ -9,13 +9,17 @@ $(function (){
             url: url,
             method: 'GET',
         }).done(function(data){
-            $.each(data, function(key, value){
-                ('.news').append('<p>' + data.results[0].abstract + '</p>')
+            //('news').empty();
+            $.each(data.results, function(key, value){ 
+                var abstract = value.abstract;
+                var link = value.url;
+                var img = value.multimedia[2].url;
+                //console.log(img);
+                $('.news').append('<div>' + '<a href=' + link + '>' + '<img src=' + img + '>' + '</a>' + '<p>' + abstract + '</p>' + '</div>' + '</article>')
             });
-            $.fail(function(err) {
-                throw err;
-              });
-        });
+        }).fail(function(err) {
+            console.log(err);
+        })
     });
 });
 

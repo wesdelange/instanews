@@ -2,3 +2,10 @@ body {
     background-color: black;
     color: white;
 }
+
+.news div img {
+    width: 100%;
+}
+.news div p {
+    z-index: 2;
+}
