@@ -1,0 +1,123 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+//----------------------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 650px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    p {
+        padding-top: 20px;
+        padding-bottom: 20px;  
+    }
+}
+.news {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.news article {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    position: relative;
+    justify-content: flex-end;
+    width: 100%;
+}
+.news article p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.news article div {
+    position: absolute;
+    z-index: 1;
+    background-color: rgba($color: #000000, $alpha: .5);
+    width: 100%;
+    height: auto;
+}
+.news article img {
+    position: relative;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    color: #c2c2c2;
+}
+
+@media screen and (min-width: 600px){
+    .news article {
+        width: 33.3%;
+    }
+    header {
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 1000px){
+    .news article {
+        width: 25%;
+    }
+    header {
+        justify-content: flex-start;
+    }
+}
