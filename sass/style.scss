@@ -31,6 +31,7 @@ body {
         background-color: rgba($color: #000000, $alpha: .5);
         width: 100%;
         height: auto;
+        pointer-events: none;
         }
         a:hover + div {
         display: flex;
