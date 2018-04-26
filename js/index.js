@@ -15,7 +15,7 @@ $(function (){
             $.each(data.results, function(key, value){ 
                 var abstract = value.abstract;
                 var link = value.url;
-                var img = value.multimedia[1].url;
+                var img = value.multimedia[4].url;
                 $('.news').append('<article>' + '<a href=' + link + '>' + '<img src=' + img + '>' + '</a>' + '<div>' + '<p>' + abstract + '</p>' + '</div>' + '</article>')
                 return key < 11            
             });

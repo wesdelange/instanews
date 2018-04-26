@@ -1,0 +1,22 @@
+
+@media screen and (min-width: 600px){
+    .news article {
+        width: 33.3%;
+    }
+    header {
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 1000px){
+    .news article {
+        width: 25%;
+    }
+    header {
+        justify-content: flex-start;
+        margin-left: 30px;
+    }
+    footer {
+        text-align: initial;
+        margin-left: 30px;
+    }
+}
