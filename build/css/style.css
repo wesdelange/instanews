@@ -68,8 +68,8 @@ header {
     padding-bottom: 20px; }
 
 body {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter; }
@@ -88,7 +88,6 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    color: white;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -102,11 +101,16 @@ body {
     margin-top: 5px;
     margin-bottom: 5px; }
   .news div {
+    display: none;
     position: absolute;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: auto; }
+  .news a:hover + div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
   .news img {
     position: relative;
     width: 100%;
