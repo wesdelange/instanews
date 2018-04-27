@@ -3,7 +3,7 @@ $(function (){
     $('.sections').on('change', function (){
         $('header').css("height", "auto")
         $('.news').empty();
-        $('.news').append('<div class="loading"><img id="gif" src="../project-02/assets/images/ajax-loader.gif" alt="loading..."><div>');
+        $('.news').append('<div class="loading"><img id="gif" src="/project-02/assets/images/ajax-loader.gif" alt="loading..."><div>');
         var value = $('select[name=sections]').val()        
         var url = "https://api.nytimes.com/svc/topstories/v2/" + value + ".json";
         url += '?' + $.param({'api-key': "2ecd6c760c464c138f0d96da0aaa5164"});
