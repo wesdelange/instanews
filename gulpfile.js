@@ -53,10 +53,9 @@ gulp.task('watch', function() {
 
 gulp.task('lint', function() {
     return gulp
-      .src(['/js/*.js'])
+      .src(["/js/*.js"])
       .pipe(eslint())
       .pipe(eslint.format())
       .pipe(eslint.failAfterError);
-  });
-
-gulp.task('default', gulp.parallel('browser-sync', 'watch'));
+});
+gulp.task("default", gulp.parallel("browser-sync", "watch"));

@@ -1,6 +1,4 @@
-$(function() {
-    $('select').selectric();
-});
+
 $(function (){ 
     $('.sections').on('change', function (){
         $('header').css("height", "auto")
