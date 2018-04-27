@@ -106,17 +106,12 @@ body {
     margin-top: 5px;
     margin-bottom: 5px; }
   .news div {
-    display: none;
     position: absolute;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: auto;
     pointer-events: none; }
-  .news a:hover + div {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
   .news img {
     position: relative;
     width: 100%;
@@ -142,6 +137,12 @@ footer {
 @media screen and (min-width: 1000px) {
   .news article {
     width: 25%; }
+    .news article div {
+      display: none; }
+    .news article a:hover + div {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
   header {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
