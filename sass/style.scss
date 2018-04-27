@@ -43,6 +43,15 @@ body {
         object-fit: cover;
         }
     }
+.loading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    #gif {
+        height: 50px;
+        width: 50px;
+    }
+}
 footer {
     text-align: center;
     color: #c2c2c2;
