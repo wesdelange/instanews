@@ -2,21 +2,21 @@ Our second project at RED Academy, a mobile-first website that displays latest n
 
 ## Technologies Used
 
-*Visual Studio Code
-*Git and GitBash
-*JavaScript and JQuery
-*Font Awesome
-*Eric Meyer CSS Reset
-*Google Chrome Developer Tools
-*Sass
-*Gulp
-*Ajax
+..*Visual Studio Code
+..*Git and GitBash
+..*JavaScript and JQuery
+..*Font Awesome
+..*Eric Meyer CSS Reset
+..*Google Chrome Developer Tools
+..*Sass
+..*Gulp
+..*Ajax
 
 ## Personal Learnings
 
-*Extended my knowledge of HTML,CSS and JS.
-*Learned how to filter top news stories from New York Times API.
-*Learned how to use Sass, Gulp, Babel and Eslint.
+..*Extended my knowledge of HTML,CSS and JS.
+..*Learned how to filter top news stories from New York Times API.
+..*Learned how to use Sass, Gulp, Babel and Eslint.
 
 
 ## Desktop
