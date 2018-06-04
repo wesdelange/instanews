@@ -21,18 +21,30 @@ Our second project at RED Academy, a mobile-first website that displays latest n
 
 ## Desktop
 
+### Landing Page
+
 ![Alt text](/images/desktop-loading-screenshot.png "Desktop Version")
+
+### Home section selected
 
 ![Alt text](/images/desktop-loaded-screenshot.png "Desktop Version")
 
 ## Tablet
 
+### Landing Page
+
 ![Alt text](/images/tablet-loading-screenshot.png "Tablet Version")
+
+### Home section selected
 
 ![Alt text](/images/tablet-loaded-screenshot.png "Tablet Version")
 
 ## Mobile
 
+### Landing Page
+
 ![Alt text](/images/mobile-loading-screenshot.png "Mobile Version")
+
+### Home section selected
 
 ![Alt text](/images/mobile-loaded-screenshot.png "Mobile Version")
