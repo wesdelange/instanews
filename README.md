@@ -21,13 +21,16 @@ Our second project at RED Academy, a mobile-first website that displays latest n
 </ul>
 
 <h2>Desktop</h2>
-![Alt text](/images/desktop-loading-screenshot.png "Desktop Version"),
+![Alt text](/images/desktop-loading-screenshot.png "Desktop Version")
+
 ![Alt text](/images/desktop-loaded-screenshot.png "Desktop Version")
 
 <h2>Tablet</h2>
-![Alt text](/images/tablet-loading-screenshot.png "Tablet Version"),
+![Alt text](/images/tablet-loading-screenshot.png "Tablet Version")
+
 ![Alt text](/images/tablet-loaded-screenshot.png "Tablet Version")
 
 <h2>Mobile</h2>
-![Alt text](/images/mobile-loading-screenshot.png "Mobile Version"),
+![Alt text](/images/mobile-loading-screenshot.png "Mobile Version")
+
 ![Alt text](/images/mobile-loaded-screenshot.png "Mobile Version")
