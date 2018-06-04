@@ -1,3 +1,5 @@
+# Instanews
+
 Our second project at RED Academy, a mobile-first website that displays latest news stories from New York Times.
 
 ## Technologies Used
